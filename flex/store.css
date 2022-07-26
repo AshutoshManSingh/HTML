@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+.navbar{
+    background-color: black;
+    height: 80px;
+    padding: 20px;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar li{
+    color: white;
+    margin: 0 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.left{
+    width: 20%;
+    height: 1000px;
+    background-color: orangered;
+}
+.left h2, .left ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.right{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+img{
+    height: 300px;
+    width: 300px;
+    transition: ease-in 2s;
+    animation-name: hello;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.product-card{
+    margin: 20px;
+    box-shadow: 10px 10px 5px green;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+img:hover{
+    transform: scale(0.9);
+
+}
+@keyframes hello{
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(0.5)
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+h3{
+    overflow: hidden;
+}
+
+.hi{
+    text-transform: none;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.sub{
+    display: none;
+    list-style: none;
+    z-index: 333;
+    width: 100px;
+}
+
+.hi:hover .sub {
+    display: block;
+    background-color: green;
+    position: absolute;
+    left: 0px;
+    top: 100%;
+}
+.sub2{
+    display: none;
+}
+.subMain{
+    position: relative;
+    width: 100px;
+}
+.subMain:hover .sub2{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    background-color: green;
+    list-style: none;
+}
+.sub3{
+    display: none;
+}
+.subMain2{
+    position: relative;
+    width: 200px;
+}
+.subMain2:hover .sub3{
+    display: block; 
+    position: absolute;
+    top: 5px;
+    left: 80px;
+    background-color: green;
+    list-style-type: none;   
+}
+.sub4{
+    display: none;
+}
+.subMain3{
+    position: relative;
+    width: 200px;
+}
+.subMain3:hover .sub4{
+    display: block; 
+    position: absolute;
+    top: 5px;
+    left: 80px;
+    background-color: green;
+    list-style-type: none;   
+}

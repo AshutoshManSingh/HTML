@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image zoom</title>
+    <style>
+        .demo{
+            height: 300px;
+            width: 600px;
+            border: 5px solid dodgerblue;
+            overflow: hidden;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            transition: all 3s;
+        }
+        .demo:hover img{
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="demo">
+    <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/505/717/49b.jpg" alt="">
+    </div>
+</body>
+</html>

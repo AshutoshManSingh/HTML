@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    background-color: oldlace;
+    font-size: smaller;
+}
+li{
+    padding: 5px;
+    margin: 0 10px;
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 50px;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    width: 70%;
+    height: 50px;
+}
+.sss{
+    background-color: orange;
+    padding: 17px;
+    margin-left: -50px;
+}
+.bar{
+    margin-left: 20px;
+}

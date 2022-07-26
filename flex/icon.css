@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.bar{
+    margin: 8px;
+}
+.search-bar{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+input{
+    width: 100%;
+    font: 10px;
+}
+.ssss{
+    margin-left: -20px;
+}

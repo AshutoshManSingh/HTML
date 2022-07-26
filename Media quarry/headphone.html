@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>headphone</title>
+    <style>
+      .main {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: black;
+        width: 40%;
+        height: 250px;
+        border-radius: 50px;
+        margin-left: 30%;
+        margin-top: 5%;
+      }
+      img {
+        border-radius: 20px;
+        border: 10px solid white;
+      }
+      .product {
+        margin: 20px;
+        background-color: white;
+        border-radius: 20px;
+        width: 300px;
+        height: 200px;
+      }
+      .text {
+        color: white;
+        justify-content: center;
+      }
+      .buy {
+        display: flex;
+        justify-content: space-between;
+      }
+      .btn1 {
+        background-color: red;
+        border-radius: 40px;
+        width: 70px;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="product">
+        <img
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBERERIRERESERERERERERERERERERERGBQZGRgUGBgcIS4lHB4sIRgYJjgmKy8xNTU1GiQ9TjszPy41NTEBDAwMEA8QHhISHjQrISs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgAHAwQGBQj/xABDEAACAQMBBQQGBwUFCQAAAAAAAQIDBBEFBhIhMUEiUWFxEzJSgZHBBxQjQmKSoTNjgrHRJFOi8PEWQ3J0k7Kz0uH/xAAbAQACAwEBAQAAAAAAAAAAAAABAgADBAUGB//EADERAAIBAgQCBwgDAQAAAAAAAAABAgMRBBIhMUFRBRMiYYGR0TJCUnGhscHwIzPhkv/aAAwDAQACEQMRAD8A7lBQEMj5sjtMKHQqGRoihRkFAQyL0hGFBAMixIASACWIUKCAKHQAhAEYBCECEhABIg2IAgQAIQDCBgIADCRitBEIEBXYYQjGYrEYRWKx2KVNDCSEY7FZmmh0IxWMxWVDoXBAkIEyIZCoZBiIx0MhEOjTERhGQqGRdEVhQyAgosSAQJAosQrCRBIOgBIQgwAkIQYBCEISxAECBgCQDPIvNpbOk3F1lUmucKKlWkn3Pcyl7zzKu2sOULaq+51KlCnn3KUn+hbDD1ai7MX+PPYVzit2dSA5H/bCq+VvTa/5l5/8ZljtbJcZWcmv3danN/CW6M8DiF7n29SdZDmdQA8KhtZaSeKkp0H+/g4R/Osx/U9qlVjOKlCUZRfFShJSi/JoyVISg7TTXz0LE09hmAIpSxgMUZisraGQGIxmKyiQyEYGFgZne44pCEAEdDIRDjRFY0RkKhkaIiMZDIVBL0Kx0EVDIsQAoKFQyHQrCggCWIASEIMAJCEDYBAgOI2s2tjTjuU5S3JOUE6bxVuZrg4Un92CfCVT3LjxLqNGdWWWP+LvYJSUVdnra9tVStd6EEqtSOd7tqFGk1z9JN8E+K7Ky+K4IrbWtrpV21UqyrL+7pKVK2j4bvOfnI0L+nVrRjOvJLHZpUILdo0Y90Y9/i+LNSNlBdG/BI6NJUKWsVmfN/hcPv3lbU5b6GGrrNSXCK3Y9IxxGK9y4GF31Z/6HqUdPqS/Z0G/F5+RvU9nL6fKlGP8P9R546KerS8UBUGc6ry4XKTM1LWbqH3m14nQS2T1D2V+WJq19CvYevQUl4Jp/oKsfB7Sj5kdB8mYrbaiS4VYZXgezpmoU3Lfta0qE3htQe6pP8UH2Ze85itRS4VISpv8S7PxNWpaSg1KDx1TTNKrxmss1o+e3oJka1RbumbWYxC8jGGeCuIL7F/8a50/PivI6uMk0mmmmsprimu9Mo3StoHFqnXW9Hll/M6/R9XnZ4lByq2UnmVNZlO3T+9Dvj1cPh487F9GJrPQ/wCfT08uRbTrcJeZYTFFoVoVIRnCSnCcVKE4vMZRfJoY4LNaFYrHYsimWwyMbAwtCsyyHAQhABGQyFQyY0RRkOhUFGmIo6GQiGRahGMgoUZFqAEIEFFiAFByAI6FCECCMAJAGpqt9G2o1K0lncj2Y9Zzk1GEF4uTS94yTbsgHO7a6/GjCdNOW5FR9O4NKct/1LeHHhKfNtco+eVxcdPnGcLi4SnXrQXo6UVwpQTxCEF0iln4Z6jzjKtWdSpLfjRnPH766lJekqY7s9iPconbaLpcpy+sVlmpL1V0px6RRqxNZYePUQ1+J83y+S5/lkpQzfyS8Pl6nkabsnKolO4k8vlFckdBabMW1P8A3afnxPdjHAxhyya7Tf2RY58jVo2UIerFLySM3o13GQBFCK2QMzYm6hZUovmkZAEaT3Jdnm32j0KyanCLz4cThdc2InS3p2rzHm6UuKfkWWCUciwlKm703bu4eQdH7R8+XdllyW64Tj60JesvLvRm0TVpUJqnU4028PPQtTaXZincRdSmtyrHjGS6+ZVeqafKMpRnHdnD1o9H+JeB2cHjVPR78v3h+sz1aVtUd3s7qqtKsaTknaXMl6N54UK8uOPCE2/c/M7wo3RL1SjK1rPsTW7Fvp/oWlsfqkq9u6dR5r20vQVm+c8LsVf4o4fnky9LYVL+eGz3+fPx49/exsPP3Ge8xWOxGcGRrQjFYzFZmkhwEAEUIyGixEMgxAx0MhUMaYiMYZCoJbEUZDIQZFqYoyCBELEAZEAFDoAQgyHIwAnD7e6jJ1aFpB9v9s1+KWadP4faS/hR27ZWKk7nV7mfNU8wh3JwShH9XJ+800JqEnU+FN+Oy+rQso5rR5ns6Bo8cxWPs6SUY/imucjsqUElg1dPtlCEYrojbqVIQW9OUYR9qTUV8WY6ab7Ui2b4IYhjo14TWYThNd8JRkv0MhcVkAwgAwgAFgEZCACwMVjCyOW2s0BV4ekppKrBNp9/gzqRJrJXdxeaO6GXJlBahaOMt5JxlF8V1jJdDp9hNUkruDkn9rH6tWeOzvJb9Gbff68fee5tZs+nL0sFwk0qiXdn1jjnP6vcVGljFOlcRS9uhUjKOPizt4essXSdHi0/Brb66mWpDq5KfeXOxWCE1JJrk0mvJhPLt3N1hGxWMxCiQ6IQhBQhQwqCgoDMiGQkWMjRFiMcKBkiZcmKOgoVDJliFGCKgosQAhAQcUbIyECMAx3NTchKXsxcvgiuNiJKd7XzzkpT+FRf+x220VTdtqnjHHxKft9ZnaTr1qed/wBHUo037E5xWJe7n5ovoUpVo1Ix3svvcEpZLNnd7T7ZSp1Hb2koxdN4rV3GM0p/3UE+Da6t8uRyWsalXryt51qzq70akYpxjBRalxwo8MvK446HJwunuwWX62ZNvLbzxbZ1Ot6JXtJW9SeXSlUnTjx9Wpu7zWPFf9rOvQwahquBnlVvoYLPUJ2lzCpCTjiaylnEot8U+9F4wkpJSXKSTXk1ko3ai33FGa6pMuXRKu/a28/aoUn79xGXpCmoSjJcR6Uro3sgIA5hcTJGyAFbCRgAyMRjAYCMBWwowXlJThKL6poqjWbZwu6WY4jUp3NNNvjJKEs+7MS3KnIq7bKt/aqTjmPoqdxnguShJN8V+I39Eu2LikV4j+pnd7P1t+0tp9ZW9CT83Tiz0GeVs5FxtLeD5wt6MX5qEUeo2cWW7RpAxSMDKGOiEAQARkMmKQgDImMjGhyyLEY6YyEQyZoixWMgpioJYmKOgpipkLEAdMIgyHQoUFgI2Nch4O1c/sJLyKq1G1Ttb2WO1D6rV/PV3X/Is/aeWacl4Z/Ure7uIxoXcHzq2rXvhU3k/wDF+h0+h3ecyrFLso46S7GfB/yLm+kStGem0akX+zvLao/KdKpH5opeEuzjxOt1XW/SWMaLby/q0l3ZguL+DO6tmYnujd2mqKpbU5rGdxZ49fgWTsVW39OtJfuIx/K3H5FTV7jftUs5aj8vMsn6NKu9ptFezKrD4Tb+Zy+lF2Iy7/ujRQ3Z1pBUwnENRCEAxWQDPO1HWba2wq1aFNvlF5cvguJ5u1e0kbSG5DE7ia7Eee4val8kVHq1epObnUk5Tk8ybeW2bMLgZV1mekSupVUS97e5hVip05xnCXKUXlMyFO7A687avu1J7ltUTjNy3nBVPuNY5Ppnuz4FwRkmk0000mmnlNd6MmKoOhUy3uuDLacsyuSo+BU+1uJ3Uqa+/u0f+rUW8/yxkWnczUYSk+Si2VFa1frV/OpzhSm2u7efZj8IqX5kXdG3jUnW+GP1ei/e4WsrpR5ss3TfUj5I3cmlp6xFeRuHEluzWBkI2BiBAQhCECMhURAIOmOmY0Mh4sVmRBTFyEuTEY6YUIhky1MUdBEQyLEwMIQIOR0AYEmAkmNcBzm0D6d+V8Vw+RUe0cnCbXepR9zRbG0udzK5rivNFYbWW+/KM48pNNfBv5m7ouWWoJiVeJytN8DbU802vZimvil8zDa0HKMnjk8e8EOqfcz0GbdGGxvxuH6PdLS+iOrmxqR9i5qY8nCD/qVFKfZwWn9D0v7NcruuIv401/QwdJ/0X5NF1D2yxkwiphycC5rAc/tTtJCygoQSqXVRYp0+e7035+Hh1Mm1e0VPT6HpHidWpmNGnnjOfe/wrq/d1KxsbiU5zu7ie/Vm3Jyl/JLoumDfgsH17zy9lfX94lNWrl0W56NWPooTubmW/XqNtuXNNnIXTnXcqihL0cZbrlh7u9jO7nvxj4rvPesbepqty4Op6K1opTuaz5UqecYXfKXFRXn0Ru7a6rQpUqVtbxUIU4ONvRWHuxb7VWb+9KTy8vm/eeiUUlZaIxN695wqm1NL3Y7l3F0/RtcuenQTefRVKtNZ9lPKX+Io3fec9SwtH2pjp2l06dNKd1WdWpGHBxpKUsRnPxaSaj18EczpKjKrCMYK7v8AhmihNRbb2Oj+kXaJW9L6tTebissbseLhB8MvxfJHP7Maf6NRg/X9ao/xvmvdwXuPF0q3qVJyu7mTnUk95OfFuT6/55HaaBRy959TnVlHD0Oqjrxb5v0S9TTTTnLM/D5HV2scRRnyY6SwjIzzzZsIxWyMVsUhMkIQJBkwoRMZMBBgoVDIiAOmMmY0xky6LFZkTCmImHJYmLYdMbIiYUyxMUYORQodMAwGTIGMQ8LXqeYPyKx1WcopwxlZbj+HmW3qNPeiyvtW05uT4GjBzUJNSJUTaOOtZqGYyXZk8t45PvDKwhvTk2sbknHjjtY4HpXNg49Dy6ts8najPM7p2Mjia8LKUmW39HGnSoWsnJYdWq58fZSSXzK0sKc3OKy+Zc2h8KMF3RRh6SrSsofuhbQgtWesma+pX9O2o1K9WW7TpRcpPq+5JdW3hJeJnTKz+lLVJSqU7SOVCmlWqL26j9VPwS4/xeBhw9LraigPN5Y3OM1zWal5cyr1eDfCEM5jTpr1YL+bfVtmndXkmlCLNKc3lsWLa7T7+/D/APh6uCUYqMdkc93b1Oqp6zC2tPQxisuSlub0lN1McakscJprh+HCxnJylzXlOcqk5OU5PMpPqzHVqOTbk22+Lb4tm3plGk579dy9DDjKMeE6r6Qi+mer6Ie7eguhmstPzTdzWbhQTcYLlK4mvuQ8F1l08zb0+ydSe/Nbq5qPSKM9Sc7qpGdRKEYxUKVGCxToU1yjBfPq8m3KSX2cP438jJXre5DzLqdPiz0bb7SUYx9SPBf1O30ihuxRzWh2nJ4O0tIYSPM46ovZR0aUeJuRI2AjZymXAbFbGbEbIQOSCkCQdMKZjTGTIQdMZMxpjJi2IZApmNMZDJgMiYyZiTGTLYyFsZEHIiYcliYB8hyIHI6YthwNgyTI1yGOrHKPKr6epPOD2WK4itBTON1HSM5wjwK+jvPIsqpRTNOpYxfQup4idMDgmcNp2k4mnjqWDp9Pdgl4GvSsop8j0KccIWpVdR3YVFRRmyV19ItpCU41E8TcVGa78cn8iwpvgV/tnBzZbhpNVo2Yk12WV79RTpynzbbjFLpjnJ/yNWVnOTy+Hh0RuzhOEnutrPPuYkoya7TZ6NTlzMLijx5Qy3jknjPez1dPsm8SlwS5LuMlF04JZjlxy1HHDe73/noNKrOfDlHuQ86kmrLTvBGCvdm1K4S7FPycv6G/pdplrgaljaZa4HW6VZYxwObiKsYRsjRCN2evpNthI9+muBp2tPCN1HnKs80rm1aIbIrZMgbKQgbA2BsDYbEDkguQBsQZMZMxphTJYhkTGTMaYyYLEMiYyZiTCmKQzJhTMSkMmMQyJjZMaZEyxMFjKgpmPIUx0wGQmRMkyNcFjJkmRCZCmSwSNEyDISE3QkyDICEnyOa1yy30+B0bZrXFPIMzi7oNtLFX3umtN8DzKtm+4sy60+Muh5NfSE88Dp0seralEqJX7tOPI3LazbfI6KppWHyNm107HQ0zxiyiKlqa+m2GMcDp7O2whLW1wejTjg49eu5s0xjYyQRkyIiZMbHGbFbA2ByJYhGwNititjWIHJBd4gbECpBUiEIQZSGyQgpBkwqRCAINvETCQBA5GTIQZEGUg7xCDih3ibxCDcbEImFMhAohN4G8EhCAcgbwSBZAOQsmQgvEhhlFMwTpohBCGvOgn0FhQSIQa7sFo2IxMiYCCMI2RXIhAEA5CuQCDWIByFbAQZIDBkJCDWAf/9k="
+          alt=""
+        />
+      </div>
+      <div class="text">
+        <h1>headphone</h1>
+        <p>⭐⭐⭐⭐⭐</p>
+        <p>Buy this headphone</p>
+        <div class="buy">
+          <p>Rs.199.78</p>
+          <button class="btn1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

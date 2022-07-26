@@ -1,0 +1,30 @@
+/*external css*/
+div{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+.div2{
+    height: 900px;
+    width: 800px;
+    background-image: url("https://wallpaperaccess.com/full/508751.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.navbar{
+    background-color: gold;
+    width: 100%;
+}
+ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin: 30px;
+    padding: 40px;
+    color: darkred;
+    font-size: 30px;
+}

@@ -1,0 +1,41 @@
+CSS
+The acronym of CSS is Cascading stylesheet
+It is used to design the layout of the web page
+the latest version of css is CSS3
+
+Type of CSS
+ i> Embedded or Internal CSS
+    it is writed inside <head>..</head>tag
+    Basic syntax of internal css is writen inside <style>..</style> tag
+ ii>Inline CSS
+    Iit is written as the attribute is the html tag
+    for expamle: <h1 style"....">...</h1>
+
+ iii>External CSS
+     It is written in the external css page not in the htnl page
+     The extension of the dot css (.css)of the exzternal page
+     The external css and html page are linked using the following tag
+     inside <head> </head> tag
+     ie <link rel="stylesheet" href="filename.css">
+
+Basic syntax of css
+
+selector{
+     proporties:value;
+     colour:ted;
+       }
+
+Type of CSS Selector
+ i>class selector
+  ->class selector is denoted by dot(.) befor classname
+  ->if the classname is demo then it is denoted by
+      .demo{
+          proporties:value;
+          proporties:value;
+           }
+ ii>id selector
+   ->id selector is denoted by hash(#) befor id name
+   ->if the id name is demo then it is denoted by
+        #demo{
+          proporties:value;
+           }   

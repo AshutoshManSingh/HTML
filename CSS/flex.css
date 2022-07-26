@@ -1,0 +1,17 @@
+.demo{
+    background-color: lime;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    height: 300px;
+    width: 300px;
+    background-color: dodgerblue;
+    margin: 10px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}

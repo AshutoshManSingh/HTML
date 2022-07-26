@@ -1,0 +1,9 @@
+nav ul{
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    background-color: darkblue;
+}
+li{
+    list-style: circle;
+    color: red;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        header{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            background-color: darkblue;
+        }
+        nav ul{
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+            display: inline-block;
+            font-size: 25px;
+            font-weight: bold;
+            transition: all 1s;
+        }
+        nav ul li a:hover{
+            /*background-color: orangered;*/
+            color: cadetblue;
+            /*border: 2px solid greenyellow;*/
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+   <header>
+       <img src="https://download.logo.wine/logo/Microsoft_Windows/Microsoft_Windows-Logo.wine.png" alt="" width="150">
+       <nav>
+           <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Service</a></li>
+               <li><a href="#">Category</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Register</a></li>
+           </ul>
+       </nav>
+   </header> 
+</body>
+</html>

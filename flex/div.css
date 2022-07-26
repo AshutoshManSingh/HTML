@@ -1,0 +1,28 @@
+.main-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3px;
+}
+.div1{
+    height: 200px;
+    width: 200px;
+    border: 7px solid green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    margin: 20px;
+}
+.div2{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border: 7px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: deeppink;
+    margin: 20px;
+}
